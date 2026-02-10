@@ -21,8 +21,19 @@ export default function Home() {
           <p className="mt-2 text-slate-400">UAE · 16+ Years Experience</p>
 
           <div className="flex gap-4 mt-4 flex-wrap text-slate-300">
-            <span>📧 nipundineshan@gmail.com</span>
-            <span>📱 +971-56-7179048</span>
+            <a href="mailto:nipundineshan@gmail.com" className="underline">
+              📧 nipundineshan@gmail.com
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nipun-dineshan-42719078"
+              target="_blank"
+              className="underline"
+            >
+              🔗 LinkedIn
+            </a>
+            <a href="tel:+971501234567" className="underline">
+              📞 +971 50 123 4567
+            </a>
           </div>
         </motion.div>
 
